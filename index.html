@@ -16,15 +16,15 @@
             <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">Portfolio</h1>
 
             <nav>
-                <a data-aos="fade-down" data-aos-duration="1500" href="#">Projets</a>
-                <a data-aos="fade-down" data-aos-duration="2000" href="#">À propos</a>
-                <a data-aos="fade-down" data-aos-duration="2500" href="#">Resources</a>
-                <a data-aos="fade-down" data-aos-duration="3000" href="#">Contact</a>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#presentation">Présentation</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#projets">Projets</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#apropos">À propos</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#contact">Contact</a>
             </nav>
         </header>
 
         <main>
-        <div class="content">
+        <div class="content" id="presentation">
             <div class="tag-box">
                 <div data-aos="fade-zoom-in"
                      data-aos-easing="ease-in-back"
@@ -43,15 +43,19 @@
                data-aos-easing="ease-in-back"
                data-aos-delay="300"
                data-aos-offset="0"
-               data-aos-duration="2500" class="description"> Étudiant informatique actuellement en Licence Informatique à l'Université Avignon - CERI </p>
+               data-aos-duration="2500" class="description"> Étudiant informatique actuellement en Licence Informatique à l'Université Avignon - CERI. <br>
+                À la recherche d'un stage en informatique 
+            </p>
 
             <div data-aos="fade-zoom-in"
                  data-aos-easing="ease-in-back"
                  data-aos-delay="300"
                  data-aos-offset="0"
                  data-aos-duration="3000" class="buttons">
-                <a href="#" class="btn-get-started">Documentation &gt;</a>
-                <a href="#" class="btn-signing-main">Getstarted &gt;</a>
+                 <a href="Lettre de motivation.pdf" target="_blank" class="btn-get-started">Lettre de motivation &gt;</a>
+                
+                <a href="EL GANDOUZ Amine (1).pdf" target="_blank" class="btn-signing-main"> CV &gt;</a>
+                
             </div>
         </div>
         </main>
@@ -60,9 +64,92 @@
                        data-aos-delay="300"
                        data-aos-offset="0"
                        data-aos-duration="3000" class="ordi-3d" url="https://prod.spline.design/taHyg0V46-SXJbHY/scene.splinecode"></spline-viewer>
-
-
     </div>
+
+        <section id="projets" class="projects-section">
+        <h2 class="section-title" data-aos="fade-up">Mes Projets</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Ingénieurie logicielle - StreamSquad</h3>
+                <p class="project-desc">Plateforme de visionnage vidéo synchronisé en temps réel avec système de salons et chat instantané. Gestion complète des utilisateurs, playlists partagées et modération.</p>
+                <p class="project-tech">Tech: PHP, PostgreSQL, YouTube API, JS</p>
+                <div class="project-links">
+                    <a href="https://github.com/Amine845/Projet-IL.git" class="btn-project-link">Voir détails ></a>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1300">
+                <h3>Gestionnaire Batch Linux</h3>
+                <p class="project-desc">Programme système en C permettant l'exécution concurrente de commandes avec limitation de charge. Manipulation avancée des appels systèmes (fork, exec, waitpid).</p>
+                <p class="project-tech">Tech: C, Linux Syscalls, Algorithmique</p>
+                <div class="project-links">
+                    <a href="https://github.com/Amine845/Programmation-des-Syst-mes-d-Exploitation.git" class="btn-project-link">Voir le code ></a>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-duration="1600">
+                <h3>Architecture Web</h3>
+                <p class="project-desc">Création d'un site internet de réservations de voyages style blablacar.com via le framework Yii</p>
+                <p class="project-tech">Tech: HTML, PHP, PostgreSQL, ActiveRecords</p>
+                <div class="project-links">
+                    <a href="#" class="btn-project-link">Voir config ></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="apropos" class="about-section">
+        <h2 class="section-title" data-aos="fade-up">À Propos</h2>
+        
+        <div class="about-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-text">
+                <p>
+                    Actuellement étudiant en <strong>troisième année de Licence Informatique</strong>, je combine des bases solides en algorithmique avec une pratique concrète du développement.
+                </p>
+                <p>
+                    Au cours de ma formation, j'ai acquis une maîtrise des langages <strong>Python</strong> et <strong>C++</strong>, ainsi qu'une expertise en gestion de <strong>bases de données</strong>. Curieux et motivé, j'ai pu renforcer ces compétences à travers divers projets académiques, développant ainsi mon sens du travail collaboratif et de la résolution de problèmes.
+                </p>
+                <p class="looking-for">
+                    <strong>Objectif actuel :</strong> Je suis à la recherche d'un <strong>stage de fin d'études de 4 semaines</strong> à partir du <strong>18 mai 2026</strong> pour valider ma licence et découvrir le monde professionnel.
+                </p>
+                
+                <div class="skills-tags">
+                    <span>Python</span>
+                    <span>C++</span>
+                    <span>SQL / Bases de données</span>
+                    <span>Algorithmique</span>
+                    <span>Travail Collaboratif</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2 class="section-title" data-aos="fade-up">Contact</h2>
+        
+        <div class="contact-container" data-aos="fade-up" data-aos-duration="1000">
+            <p class="contact-intro">
+                Je suis actuellement à l'écoute d'opportunités pour des stages. 
+                N'hésitez pas à me contacter !
+            </p>
+            
+            <div class="contact-buttons">
+                <a class="btn-contact email">
+                    mail : amineelgandouz@gmail.com
+                </a>
+                
+                <a href="https://www.linkedin.com/in/amine-el-gandouz-639925294/" target="_blank" class="btn-contact linkedin">
+                    LinkedIn
+                </a>
+                
+                <a href="https://github.com/Amine845" target="_blank" class="btn-contact github">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
 
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.96/build/spline-viewer.js"></script>
 
